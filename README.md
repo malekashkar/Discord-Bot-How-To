@@ -1,107 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<p><strong>|</strong> <strong>Create A Bot</strong></p>
-	<ol>
-		<li>Go to this <u>page</u> and sign in to your discord account.</li>
-		<li>Click the <strong>New Application</strong> top right of your screen.</li>
-	</ol>
-	<p><img src="https://i.imgur.com/fzlrdqV.png"></p>
-	<ul>
-		<li>Next enter the name of your bot and click create.</li>
-	</ul>
-	<p><img src="https://i.imgur.com/LR6rIWs.png"></p>
-	<ul>
-		<li>Next, click the <strong>Bot</strong> tab to the left and click <strong>Add Bot</strong> to the right of that page.</li>
-	</ul>
-	<p><img src="https://i.imgur.com/OqR63ux.png"></p>
-	<p><strong>|</strong> <strong>Frequently Asked Questions</strong></p>
-	<p>Where is the <strong>TOKEN</strong>?</p>
-	<ol>
-		<li>Go to the bot application you just created.</li>
-		<li>Click the <strong>Bot</strong> tab on the left of the screen.</li>
-		<li>Then look for the word <strong>TOKEN</strong>, and click the Copy under it.</li>
-	</ol>
-	<p><img src="https://i.imgur.com/YI9Ijnd.png"></p>
-	<p>Where is the <strong>CLIENT ID</strong>?</p>
-	<ol>
-		<li>Go to the bot application you just created.</li>
-		<li>Click the <strong>General Information</strong> tab on the left of the screen.</li>
-		<li>Then look for the word <strong>CLIENT ID</strong>, and click the Copy under it.</li>
-	</ol>
-	<p><img src="https://i.imgur.com/oLPw86e.png"></p>
-	<p>Where is the <strong>INVITE LINK</strong>?</p>
-	<ol>
-		<li>Go to the bot application you just created.</li>
-		<li>Click the <strong>OAuth2</strong> tab on the left of the screen.</li>
-		<li>Then look for the word <strong>Scopes</strong>, and click the <strong>bot</strong> option.</li>
-		<li>You should see a link pop up at the bottom of <strong>scopes</strong>, click Copy.</li>
-	</ol>
-	<p><img src="https://i.imgur.com/NMTlsN3.png"></p>
-	<p><strong>|</strong> <strong>Windows Hosting Tutorial</strong></p>
-	<ol>
-		<li>Make sure you have <u>node.js</u> installed.</li>
-		<li>Create a file on your desktop, and import all bot files into it.</li>
-		<li>Next, get the file’s directory.</li>
-	</ol>
-	<p><img src="https://i.imgur.com/WQ3ZAvg.png"></p>
-	<ul>
-		<li>Open a command prompt and type in cd . Exclude the &lt;&gt;.</li>
-		<li>Next enter the command npm install into the command prompt.</li>
-		<li>Finally, to turn the bot on, enter the command node . and click enter.</li>
-		<li>To close the bot click Ctrl + C or just close the cmd window.</li>
-	</ul>
-	<p><strong>|</strong> <strong>Ubuntu Hosting Tutorial</strong></p>
-	<p></p>
-	<blockquote>
-		Bot files have to be uploaded first.
-	</blockquote>
-	<p></p>
-	<ol>
-		<li>Enter your terminal or SSH.</li>
-		<li>Run all the commands below.
-			<ol>
-				<li>sudo apt-get install curl</li>
-				<li>curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -</li>
-				<li>sudo apt-get install -y nodejs</li>
-				<li>sudo npm install pm2@latest -g</li>
-				<li>Then enter the bot files with cd . Exclude the &lt;&gt;.</li>
-				<li>Lastly, run the command pm2 start &lt;.js file name&gt;. Exclude the &lt;&gt;.</li>
-				<li>To turn the bot off or restart it use pm2 stop or pm2 restart . Exclude the &lt;&gt;.</li>
-			</ol>
-			<p><strong>|</strong> <strong>Debian Hosting Tutorial</strong></p>
-			<p></p>
-			<blockquote>
-				Bot files have to be uploaded first.
-			</blockquote>
-			<p></p>
-		</li>
-		<li>Enter your terminal or SSH.</li>
-		<li>Run all the commands below.</li>
-		<li>curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -</li>
-		<li>sudo apt-get install -y nodejs</li>
-		<li>sudo npm install pm2@latest -g</li>
-		<li>Then enter the bot files with cd . Exclude the &lt;&gt;.</li>
-		<li>Lastly, run the command pm2 start &lt;.js file name&gt;. Exclude the &lt;&gt;.</li>
-		<li>To turn the bot off or restart it use pm2 stop or pm2 restart . Exclude the &lt;&gt;.</li>
-	</ol>
-	<p><strong>|</strong> <strong>CentOS Hosting Tutorial</strong></p>
-	<p></p>
-	<blockquote>
-		Bot files have to be uploaded first.
-	</blockquote>
-	<p></p>
-	<ul>
-		<li>Enter your terminal or SSH.</li>
-		<li>Run all the commands below.</li>
-		<li>curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -</li>
-		<li>sudo npm install pm2@latest -g</li>
-		<li>Then enter the bot files with cd . Exclude the &lt;&gt;.</li>
-		<li>Lastly, run the command pm2 start &lt;.js file name&gt;. Exclude the &lt;&gt;.</li>
-		<li>To turn the bot off or restart it use pm2 stop or pm2 restart . Exclude the &lt;&gt;.</li>
-	</ul>
-</body>
-</html>
+# Discord Application Tutorial
+A quick and short tutorial on how to create a discord bot application, and how to navigate through the discord developer panel to gain information about your bot.
+
+## 🏃 Creating An Application
+Create the application in order to have your bot profile and information.
+
+1. Go to the discord [developer application page](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications).
+2. Login to your discord account.
+3. Click the **New Application** button at the top right.
+4. Enter the name you would like to give your bot.
+5. Lastly, click the create button. And now you should have an application!
+
+## 🤖 Creating The Bot
+Now that you have your application, you can create the actual robot!
+
+1. Click your new application pad.
+2. Open the **Bot** tab to the left.
+3. Lastly, click the **Add Bot** button to the right.
+
+## ❓ Frequently Asked Questions
+These questions may come up at a certain point, so might as well take a look right?
+
+### Where is my bot token?
+By the end of this, the bot token will be copied to your clipboard.
+
+1. Go to the discord [developer application page](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications).
+2. Click the application pad you want.
+3. Open the **Bot** tab to the left.
+4. Click the **Copy** button under *Click to Reveal Token*.
+
+### How do I change my bot token?
+This will make all past tokens created for your bot dysfunctional.
+
+1. Go to the discord [developer application page](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications).
+2. Click the application pad you want.
+3. Open the **Bot** tab to the left.
+4. Click the **Regenerate** button under *Click to Reveal Token*.
+
+### Where is my application/client ID?
+By the end of this, the application ID will be copied to your clipboard.
+
+1. Go to the discord [developer application page](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications).
+2. Click the application pad you want.
+3. Click the **Copy** button under *CLIENT ID*.
+
+### Where is my bot invite link?
+By the end of this, the bot invite link will be copied to your clipboard.
+
+1. Go to the discord [developer application page](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications).
+2. Click the application pad you want.
+3. Open the **OAuth2** tab to the left.
+4. Click the **bot** button under *Scopes*.
+5. Scroll down, select all the bot permissions you need.
+6. Click the **Copy** button to the right of the newly generated bot token.
+
+## 💻 Hosting
+This is a complete guide that will teach you the basics of hosting a discord javascript application.
+
+### Prerequisites
+* [**Linux Node.js**](https://github.com/nodesource/distributions#table-of-contents)
+* [**Windows Node.js**](https://nodejs.org/en/download/)
+
+### Windows Hosting
+By the end of this tutorial, the bot should be online.
+
+1. Create a file on your *desktop* with all the *bot files* in it.
+2. Open the file, and copy the [navigation link](https://www.wikihow.com/Find-a-File%27s-Path-on-Windows).
+3. Open a [command prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows).
+4. Run the `cd <navigation link>` command to get into the directory.
+5. Run the `npm install` command to install all the dependencies.
+6. Run the `node .` command to turn the bot online.
+
+### Linux Hosting
+This tutorial is meant for people with a slight knowledge of how to use Ubuntu.
+
+1. Create a file in any directory and import the bot files into it.
+2. Change directory to the file you just created.
+3. Run the `npm install` command to install the dependencies.
+4. Run the `npm install --global pm2` command to install pm2 on the system.
+5. Run the `pm2 start .` command to start the bot on the system.
